@@ -1,0 +1,11 @@
+{
+  "name": "checkbound",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "Know whether your checks still match your code.",
+  "bin": { "checkbound": "bin/checkbound.mjs" },
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "files": ["bin", "src", "README.md", "CONTRIBUTING.md", "SECURITY.md", "examples"]
+}
